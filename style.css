@@ -179,3 +179,47 @@ footer, .footer {
   .industry-grid {flex-direction:column; align-items:center;}
   .services-grid, .service-grid, .portfolio-grid {grid-template-columns:1fr;}
   }
+
+/* CENTER TEXT AND BUTTONS IN SECTIONS */
+.services-preview,
+.portfolio-preview,
+.contact-form,
+.about-content,
+.page-hero,
+.contact-cta,
+.industries {
+  text-align: center;
+}
+
+/* CENTER BUTTONS IN FORMS & GRIDS */
+.contact-form button,
+.hero-actions,
+.center,
+.service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* OPTIONAL: Add spacing under headings */
+.services-preview h2,
+.portfolio-preview h2,
+.page-hero h1,
+.contact-cta h2,
+.about-content h1,
+.about-content h2 {
+  margin-bottom: 15px;
+}
+
+.page-hero h1,
+.services-preview h2,
+.portfolio-preview h2,
+.contact-cta h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  margin: 10px auto; /* ensures buttons are centered */
+}
