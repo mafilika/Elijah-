@@ -29,7 +29,7 @@ header nav a.active {text-decoration:underline;}
 /* HERO */
 .page-hero, .hero {
   position:relative;
-  background:#001133 url('IMAGE_LINK_HERE') center/cover no-repeat;
+  background:#001133 url('https://images.ctfassets.net/09muo917z9ra/3gt8nOAFNgfDWVUEvatnix/f4cc1e1e9d3f305cf35c3d6b352a51d4/IMG-20260205-WA0032-2.jpg') center/cover no-repeat;
   height:50vh;
   display:flex;
   flex-direction:column;
