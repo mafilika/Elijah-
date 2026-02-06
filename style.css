@@ -39,6 +39,21 @@ header nav a.active {text-decoration:underline;}
   text-align:center;
   padding:0 5%;
 }
+.hero {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* ABOVE overlay */
+}
 
 .hero-overlay, .page-hero::before {
   content:"";
